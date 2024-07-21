@@ -1,6 +1,9 @@
 start:
 	source .venv/bin/activate && python3 manage.py runserver --settings=config.settings.dev
 
+dev-venv:
+	python3 venv .venv --prompt django_project
+
 dev-install:
 	pip install -r requirements/dev.txt
 
