@@ -96,10 +96,13 @@
 # **Extra Info**
 
  - To create an app, you need to go to **apps** folder.
+
  	-  With the commmand:
 
   		`cd apps`
 
- - In this folder, run the command:
+ - Within the folder, you create as many apps you want.
+
+ 	- With the command:
 
   		`python3 ../manage.py startapp appname`
