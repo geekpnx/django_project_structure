@@ -106,3 +106,5 @@
  	- With the command:
 
   		`python3 ../manage.py startapp appname`
+
+	**Note:** change **appname** with your own name.
