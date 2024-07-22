@@ -7,7 +7,7 @@
 
 ## **STEP 1**
 
-- Remove '.git' folder
+- Remove '.git' folder, because later you might want to create github repository related to your own project name.
 
 	- With the command:
 
@@ -15,7 +15,7 @@
 	
 ## **STEP 2**
 
-- Change Directory out from the working directory 'django_project_structure' to chage the naming to your own project
+- From the working directory 'django_project_structure' you will change the folder name accordingly.
 
 	- With the command:
 
@@ -23,7 +23,7 @@
 	
 ## **STEP 3**
 
-- After, you go to your 'your_project_name' folder.
+- After, you need to go to  'your_project_name' folder.
 
 	- With the command:
 	
@@ -47,32 +47,35 @@
 	
 ## **STEP 6**
 
-- Create your project database, by running the python script 'createDB.py'.
+- Create your project database, by running the python script inside 'createDB.py' file.
 
 	- With the command:
 
 		`python3 -m createDB`
-	
-**Note:** *this will prompt you to give the name of your database (as you wish).*
+
+**Note:** *this will prompt you to give the name of your database (you can name it as you wish).*
 
 ## **STEP 7** 
 
-- Last but not least generate **`SECRET KEY`**, which later you will need to add to `'.env'` file.
+- Last but not least generate a **`SECRET KEY`**, which later you will add to `'.env'` file.
 
-	- To generate the Secret Key, with the command:
+	- To generate the Secret Key,
+		-  With the command:
 
-		`python3 -m generateSKEY`
+			`python3 -m generateSKEY`
 	
-	- Once you have the generated key (copy it), you open the .env with the command
+	- Once you have the generated key (copy it), you open the .env
+	 	- with the command
 
-		`nano .env`
+			`nano .env`
 	
-Then you (paste) it, on the section on top SECRET_KEY, also don't forget to add your project database on DB_NAME.
+	- Then, you paste´it, on the section on top **SECRET_KEY**, also don't forget to add your project database on **DB_NAME**.
 
 ## **STEP 8**
 
 - When you done, do a django migrate
 	- With running the command:
+	
 		`make dev-m`
 
 - You can now, go a head run django server to check if it's working correcly before you create different apps.
@@ -85,4 +88,4 @@ Then you (paste) it, on the section on top SECRET_KEY, also don't forget to add 
   - To create app, you need to go to 'apps' folder, with the commmand:
   		`cd apps`
   - In this folder you run, the command
-  		`python3 manage.py startapp appname`
+  		`python3 ../manage.py startapp appname`
