@@ -17,9 +17,9 @@ DEFAULT_APPS = [
 
 CUSTOM_APPS = [
     # USER DEFINED APPS
-    "apps.stores",
-    "apps.products",
-    "apps.prices"
+    # "apps.name1",    # <-- your app name goes here
+    # "apps.name2",    # <-- your app name goes here
+    # "apps.name3"     # <-- your app name goes here
 ]
 
 
@@ -100,8 +100,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Inform django about the new user model 
 # AUT = <app_name>.<model_class>
-#AUTH_USER_MODEL = "user.User"
+#AUTH_USER_MODEL = "user.User" # <-- your User authentication model goes here
 
 ROOT_URLCONF = "config.urls"
 
-#LOGIN_URL = '/user/login/'
+#LOGIN_URL = '/user/login/'  # <-- your Login URL goes here
