@@ -7,7 +7,7 @@
 
 ## **STEP 1**
 
-- After you cloned the repo, go inside the folder 'django_porject_stucture' and remove '.git' folder, because later you might want to create github repository related to your own project name.
+- After you cloned the repo, go inside the folder **django_porject_stucture** and remove **.git** folder, because later you might want to create github repository related to your own project name.
 
 	- With the command:
 
@@ -15,7 +15,7 @@
 	
 ## **STEP 2**
 
-- From the working directory 'django_project_structure' you will change the folder name accordingly.
+- From the working directory **django_project_structure** you will change the folder name accordingly.
 
 	- With the command:
 
@@ -66,12 +66,14 @@
 - Last but not least generate a **`SECRET KEY`**, which later you will add to `'.env'` file.
 
 	- To generate the Secret Key,
+
 		-  With the command:
 
 			`python3 -m generateSKEY`
 	
 	- Once you have the generated key (copy it), you open the .env
-	 	- with the command
+
+	 	- With the command
 
 			`nano .env`
 	
@@ -80,11 +82,13 @@
 ## **STEP 8**
 
 - When you done, do a django migrate
+
 	- With running the command:
 	
 		`make dev-m`
 
 - You can now, go a head run django server to check if it's working correcly before you create different apps.
+
 	- With running the command:
  
 		`make`
@@ -96,7 +100,6 @@
 
   		`cd apps`
 
- - In this folder,
- 	- run the command
+ - In this folder, run the command:
 
   		`python3 ../manage.py startapp appname`
