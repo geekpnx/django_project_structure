@@ -7,7 +7,7 @@
 
 ## **STEP 1**
 
-- After you clone the repo, go inside the folder 'django_porject_stucture' and remove '.git' folder, because later you might want to create github repository related to your own project name.
+- After you cloned the repo, go inside the folder 'django_porject_stucture' and remove '.git' folder, because later you might want to create github repository related to your own project name.
 
 	- With the command:
 
