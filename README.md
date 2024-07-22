@@ -23,7 +23,7 @@
 	
 ## **STEP 3**
 
-- After, you need to go to  'your_project_name' folder.
+- After, you need to go to  **your_project_name** folder.
 
 	- With the command:
 	
@@ -31,15 +31,15 @@
 
 ## **STEP 4**
 
-- Create virtual environment with venv.
+- Create virtual environment with **venv**.
 
 	- With the command:
 
 		`python3 -m venv .venv --prompt name_your_project`
 
-- Activate venv
+- Activate **venv**
 
-	- With the command
+	- With the command:
 
 		`source .venv/bin/activate` 
 
@@ -53,7 +53,7 @@
 	
 ## **STEP 6**
 
-- Create your project database, by running the python script inside 'createDB.py' file.
+- Create your project database, by running the python script inside **createDB.py** file.
 
 	- With the command:
 
@@ -63,21 +63,21 @@
 
 ## **STEP 7** 
 
-- Last but not least generate a **`SECRET KEY`**, which later you will add to `'.env'` file.
+- Last but not least generate a **`SECRET KEY`**, which later you will add to `.env` file.
 
-	- To generate the Secret Key,
+	- To generate the Secret Key
 
 		-  With the command:
 
 			`python3 -m generateSKEY`
 	
-	- Once you have the generated key (copy it), you open the .env
+	- Once you have the generated key (copy it), you open the **.env**
 
 	 	- With the command
 
 			`nano .env`
 	
-	- Then, you paste´it, on the section on top **SECRET_KEY**, also don't forget to add your project database on **DB_NAME**.
+	- Then, you paste it, on the section **SECRET_KEY**, also the database created on **DB_NAME**.
 
 ## **STEP 8**
 
@@ -95,7 +95,7 @@
 
 # **Extra Info**
 
- - To create app, you need to go to 'apps' folder.
+ - To create an app, you need to go to **apps** folder.
  	-  With the commmand:
 
   		`cd apps`
