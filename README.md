@@ -53,6 +53,7 @@
 	
 ## **STEP 6**
 
+**Note:** Before you create the database, please make sure your **PostgreSQL** are runnning and you able to access **postgres** database with the username **postgres**
 - Create your project database, by running the python script inside **createDB.py** file.
 
 	- With the command:
@@ -108,3 +109,7 @@
   		`python3 ../manage.py startapp appname`
 
 	**Note:** change **appname** with your own name.
+
+## **For you who would like to have a better idea or understanding, please checkout **Eyong Kevin's** github**
+
+ >  **https://github.com/Eyongkevin/django-boilerplate**
