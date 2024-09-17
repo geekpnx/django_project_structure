@@ -2,7 +2,7 @@
 
 <a href="https://ibb.co/Df0HCjT"><img src="https://i.ibb.co/m5fVqPg/Django-Project-Structure-Overview.png" alt="Django-Project-Structure-Overview" border="0"></a>
 
-# **Setup Django Project Structure, by following these steps:**#
+# **Setup Django Project Structure, by following these steps:**
 
 
 ## **STEP 1**
@@ -12,7 +12,7 @@
 	- With the command:
 
 ```bash
-	rm -rf .git`
+	rm -rf .git
 ```
 ## **STEP 2**
 
@@ -32,7 +32,7 @@
 	- With the command:
 	
 ```bash 
-	cd your_project_name`
+	cd your_project_name
 ```
 ## **STEP 4**
 
@@ -40,7 +40,7 @@
 
 	- With the command:
 ```bash
-	python3 -m venv .venv --prompt your_project_name`
+	python3 -m venv .venv --prompt your_project_name
 ```
 - Activate **venv**
 
@@ -57,7 +57,7 @@
 	- With the command:
 
 ```bash
-	make dev-install`
+	make dev-install
 ```
 
 
@@ -73,9 +73,9 @@
 **Note:** *this will prompt you to give the name of your database (you can name it as you wish).*
 
 
-## **STEP 7** 
+## **STEP 7**
 
-You might also would like to create the **`DB_USER`** ***(database username)*** and **`DB_PWD`** ***(database password)***.
+- You might also would like to create the **`DB_USER`** ***(database username)*** and **`DB_PWD`** ***(database password)***
 
 	- With the command:
 
@@ -97,7 +97,7 @@ You might also would like to create the **`DB_USER`** ***(database username)*** 
 
 ## **STEP 9**
 
-Once you have created and generated all the information in **STEP 6**, **STEP 7**, and **STEP 8** now you need to create **.env**
+- Once you have created and generated all the information in **STEP 6**, **STEP 7**, and **STEP 8** now you need to create **.env**
 
 	- With the command
 
@@ -148,7 +148,7 @@ DB_HOST=localhost
  	- With the command:
 
 ```bash
-	python3 ../manage.py startapp appname`
+	python3 ../manage.py startapp appname
 ```
 
 **Note:** change **appname** with your own app name.
